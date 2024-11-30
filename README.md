@@ -1,3 +1,5 @@
+# Task Hub
+
 **Task Hub** is a full-stack web application designed to help users efficiently manage personal tasks. It provides features such as secure authentication, task management (CRUD), and follows the **CQRS** pattern with **MediatR** and **Clean Architecture** principles for better separation of concerns and maintainability.
 
 ## Features
