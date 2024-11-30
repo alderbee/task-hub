@@ -1,5 +1,3 @@
-<img width="1451" alt="Screenshot 2024-11-30 at 1 13 33 PM" src="https://github.com/user-attachments/assets/8da3af74-a475-4f83-8299-1d90adf4a570"># Task Hub
-
 **Task Hub** is a full-stack web application designed to help users efficiently manage personal tasks. It provides features such as secure authentication, task management (CRUD), and follows the **CQRS** pattern with **MediatR** and **Clean Architecture** principles for better separation of concerns and maintainability.
 
 ## Features
