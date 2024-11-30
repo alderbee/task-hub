@@ -1,0 +1,34 @@
+.page_content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("/assets/wallq.jpg"); /* Adjust the path based on your project structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.authentication-card {
+  position: fixed;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+re-captcha {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.mat-mdc-progress-spinner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-button {
+  margin-left: 10px;
+}

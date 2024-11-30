@@ -1,0 +1,50 @@
+.status-todo {
+  color: #d3a268;
+}
+
+.status-inprogress {
+  color: blue;
+}
+
+.status-onhold {
+  color: red;
+}
+
+.status-completed {
+  color: green;
+}
+
+.status-default {
+  color: pink;
+}
+
+.footer-toolbar {
+  position: fixed;
+  bottom: 0;
+}
+
+.side-nav {
+  width: 10%;
+  .side-nav-addButton {
+    margin: 10%;
+  }
+}
+
+.example-container {
+  height: 80%;
+}
+
+.no-data-message {
+  font-size: 1.2rem;
+  color: #757575;
+  text-align: center;
+  padding: 20px;
+}
+
+.mat-mdc-progress-spinner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

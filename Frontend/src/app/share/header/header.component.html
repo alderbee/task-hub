@@ -1,0 +1,15 @@
+<mat-toolbar class="header-toolbar" color="primary">
+  <button mat-icon-button aria-label="Home icon">
+    <mat-icon>task</mat-icon>
+  </button>
+  <span>Task Hub</span>
+  <span class="example-spacer"></span>
+  <button
+    *ngIf="userIsAuthenticated"
+    mat-raised-button
+    color="primary"
+    (click)="logout()"
+  >
+    Logout
+  </button>
+</mat-toolbar>
